@@ -235,17 +235,17 @@ export default {
         backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
         remoteConfig: [
           {
-            label: "universal",
+            label: "Config",
             options: [
               {
-                label: "No-Urltest",
+                label: "FimallsConfig",
                 value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/no-urltest.ini"
+                  "https://cdn.jsdelivr.net/gh/ItsFimall/ClashRuleset@main/Ruleset"
               },
             ]
           },
           {
-            label: "Special",
+            label: "Basic",
             options: [
               {
                 label: "Basic(仅GEOIP CN + Final)",
